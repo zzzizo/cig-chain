@@ -1,0 +1,34 @@
+{
+    "chain": [
+        {
+            "index": 0,
+            "previous_hash": "0",
+            "timestamp": 1748026413.7642894,
+            "data": {
+                "transactions": [],
+                "message": "Genesis Block"
+            },
+            "nonce": 103889,
+            "hash": "000077213d677477299c0b5cbc4f64df43f79b9a2e61eed9e56a9a6deb6ffd85"
+        },
+        {
+            "index": 1,
+            "previous_hash": "000077213d677477299c0b5cbc4f64df43f79b9a2e61eed9e56a9a6deb6ffd85",
+            "timestamp": 1748026415.2344854,
+            "data": {
+                "transactions": []
+            },
+            "nonce": 5785,
+            "hash": "0000ded33696784b485f5eea7b3a1e64d9b7bae26cdcf14743b3dbbea1d3e4b1"
+        }
+    ],
+    "difficulty": 4,
+    "pending_transactions": [
+        {
+            "from": "SYSTEM",
+            "to": "YOUR_WALLET_ADDRESS",
+            "amount": 100
+        }
+    ],
+    "mining_reward": 100
+}
