@@ -83,3 +83,19 @@ mined_block = pow_consensus.mine(block, difficulty=4)
 print(f"Block mined with hash: {mined_block.hash}")
 
 
+# Architecture
+CIG-Chain consists of several core components:
+
+- Block : The fundamental unit of the blockchain, containing transactions and metadata
+- Consensus Mechanisms : Various algorithms to achieve agreement on the state of the blockchain
+- Transaction Validation : Ensures all transactions are valid before inclusion in a block
+- Smart Contract Engine : Executes code stored on the blockchain
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- Inspired by various blockchain implementations including Bitcoin, Ethereum, and Tendermint
+- Thanks to all contributors who have helped shape this project
