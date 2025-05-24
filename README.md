@@ -83,7 +83,10 @@ mined_block = pow_consensus.mine(block, difficulty=4)
 print(f"Block mined with hash: {mined_block.hash}")
 
 
-# Architecture
+
+
+
+Architecture
 CIG-Chain consists of several core components:
 
 - Block : The fundamental unit of the blockchain, containing transactions and metadata
