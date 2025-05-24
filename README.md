@@ -55,38 +55,8 @@ CIG-Chain supports a wide range of consensus algorithms to suit different networ
 - Python 3.7+
 - Required packages: hashlib, json, time, random
 
-### Installation
 
-```bash
-git clone https://github.com/yourusername/cig-chain.git
-cd cig-chain
-pip install -r requirements.txt
-
-
-Basic Usage
-
-from blockchain.block import Block
-from blockchain.consensus import ProofOfWork
-
-# Create a new block
-block = Block(
-    index=1,
-    previous_hash="0000000000000000000000000000000000000000000000000000000000000000",
-    timestamp=time.time(),
-    data={"transactions": [{"from": "Alice", "to": "Bob", "amount": 10}]}
-)
-
-# Mine the block using Proof of Work
-pow_consensus = ProofOfWork()
-mined_block = pow_consensus.mine(block, difficulty=4)
-
-print(f"Block mined with hash: {mined_block.hash}")
-
-
-
-
-
-Architecture
+### Architecture
 CIG-Chain consists of several core components:
 
 - Block : The fundamental unit of the blockchain, containing transactions and metadata
