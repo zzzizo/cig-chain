@@ -1,4 +1,4 @@
-# CIG-Chain
+# CIG-Chainnn
 
 A versatile and customizable blockchain platform with support for multiple consensus mechanisms, smart contracts, and advanced transaction verification.
 
